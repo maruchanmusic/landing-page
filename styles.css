@@ -1,0 +1,14 @@
+
+
+.header {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ border: 5px;
+ border-color: pink;
+}
+
+
+.headerright {
+    display: flex;
+}
