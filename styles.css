@@ -8,24 +8,26 @@ body {
    background-color: #1f2937;
    display: flex;
    align-items: center;
-   justify-content: center; 
-   gap: 400px;
+   justify-content: space-between; 
    padding: 10px;  
 }
 
 .headerleft {
+    margin-left: 350px;
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .headerright {
     display: flex;
+    margin-right: 350px;
 }
 
 ul { 
     list-style-type: none;
     margin: 0;
-    gap: 15px;
+    gap: 25px;
 }
 
 a {
@@ -37,10 +39,8 @@ a {
 .hero {
     background-color: #1f2937;
     display: flex;
-    justify-content: center;
-    gap: 200px;
-    align-items: center;
-    
+    justify-content: space-between;
+    align-items: center;   
 }
 
 .title {
@@ -59,6 +59,9 @@ a {
     height: 400px;
     width: auto;
     margin-top: 100px;
+    margin-right: 350px;
+    padding: 10px;
+    margin-bottom: 100px;
 }
 
 button {
@@ -69,13 +72,55 @@ button {
   background-color: #3882f6;
   border-radius: 8px;
   margin-top: 10px;
-
 }
 
 .herotext {
-    height: auto;
-    width: 400px;
-    padding: 30px;
-    gap: 15px;
+    margin-left: 350px;
+    height: 400px;
+    width: 500px;
     margin-top: 100px;
+    padding: 10px;
+    margin-bottom: 100px;    
+}
+
+.information {
+    text-align: center;
+    margin-bottom: 350px;
+}
+
+.infotitle {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    border-radius: 8px;
+    border: solid #3882f6 3px;
+}
+
+.imgcontainer {
+    width: 200px;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex: auto;
+    flex-wrap: wrap;
+}
+
+.text {
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
 }
